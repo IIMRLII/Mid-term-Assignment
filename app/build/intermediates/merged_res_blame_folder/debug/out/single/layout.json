@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\NotePad-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notelist_view.xml",
+        "source": "D:\\NotePad-master\\app\\src\\main\\res\\layout\\notelist_view.xml"
+    },
+    {
+        "merged": "D:\\NotePad-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\alert_background.xml",
+        "source": "D:\\NotePad-master\\app\\src\\main\\res\\layout\\alert_background.xml"
+    },
+    {
+        "merged": "D:\\NotePad-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\title_editor.xml",
+        "source": "D:\\NotePad-master\\app\\src\\main\\res\\layout\\title_editor.xml"
+    },
+    {
+        "merged": "D:\\NotePad-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_editor.xml",
+        "source": "D:\\NotePad-master\\app\\src\\main\\res\\layout\\note_editor.xml"
+    },
+    {
+        "merged": "D:\\NotePad-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\noteslist_item.xml",
+        "source": "D:\\NotePad-master\\app\\src\\main\\res\\layout\\noteslist_item.xml"
+    }
+]
