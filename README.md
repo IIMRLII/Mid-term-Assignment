@@ -4,12 +4,12 @@
 
 附加功能2：进入app动画效果
 
-![1636965269672 00_00_00-00_00_30](README.assets/1636965269672 00_00_00-00_00_30.gif)
+![enterapp](README.assets/enterapp.gif)
 
 附加功能3：搜索动画效果
 
-![1636966368895 00_00_00-00_00_30](README.assets/1636966368895 00_00_00-00_00_30.gif)
+![serach](README.assets/serach.gif)
 
 附加功能4：背景颜色修改
 
-![1636966694298 00_00_00-00_00_30](README.assets/1636966694298 00_00_00-00_00_30.gif)
+![changebackground](README.assets/changebackground.gif)
