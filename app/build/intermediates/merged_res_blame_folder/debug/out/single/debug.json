@@ -8,12 +8,12 @@
         "source": "D:\\NotePad-master\\app\\src\\main\\res\\layout\\title_editor.xml"
     },
     {
-        "merged": "D:\\NotePad-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_delete.png.flat",
-        "source": "D:\\NotePad-master\\app\\src\\main\\res\\drawable\\ic_menu_delete.png"
-    },
-    {
         "merged": "D:\\NotePad-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_seekbar_progress_drawable.xml.flat",
         "source": "D:\\NotePad-master\\app\\src\\main\\res\\drawable\\seekbar_progress_drawable.xml"
+    },
+    {
+        "merged": "D:\\NotePad-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_delete.png.flat",
+        "source": "D:\\NotePad-master\\app\\src\\main\\res\\drawable\\ic_menu_delete.png"
     },
     {
         "merged": "D:\\NotePad-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_white_listitem.xml.flat",

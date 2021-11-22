@@ -20,17 +20,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="0.15">
+        android:layout_weight="0.1">
     </LinearLayout>
 
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/linearlayout1"
         android:orientation="horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="0.7"
+        android:layout_weight="0.8"
         android:layout_marginVertical="5dp"
         android:background="@drawable/shape_white_listitem"
         android:elevation="5dp">
@@ -44,6 +44,7 @@
 
         <LinearLayout android:id="@+id/linearlayout2"
             android:orientation="vertical"
+            android:layout_marginRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -77,9 +78,9 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="0.15">
+        android:layout_weight="0.1">
     </LinearLayout>
 
 </LinearLayout>

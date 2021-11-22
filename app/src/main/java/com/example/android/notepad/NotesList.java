@@ -54,8 +54,12 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.SimpleCursorAdapter;
+import android.widget.TextView;
 
 import androidx.core.view.MenuItemCompat;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * Displays a list of notes. Will display notes from the {@link Uri}
@@ -173,6 +177,22 @@ public class NotesList extends ListActivity {
                       viewIDs
               );
 
+        SimpleCursorAdapter.ViewBinder viewBinder = new SimpleCursorAdapter.ViewBinder() {
+            @Override
+            public boolean setViewValue(View view, Cursor cursor, int i) {
+                if(i == cursor.getColumnIndex(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE)){
+                    TextView textView = (TextView) view;
+                    SimpleDateFormat time_format = new SimpleDateFormat("yyyy年MM月dd日 - hh时mm分ss秒");
+                    Date date = new Date(cursor.getLong(i));
+                    String time = time_format.format(date);
+                    textView.setText(time);
+                    return true;
+                }
+                return false;
+            }
+        };
+        adapter.setViewBinder(viewBinder);
+
         // Sets the ListView's adapter to be the cursor adapter that was just created.
         setListAdapter(adapter);
 
@@ -212,6 +232,22 @@ public class NotesList extends ListActivity {
                 dataColumns,
                 viewIDs
         );
+
+        SimpleCursorAdapter.ViewBinder viewBinder = new SimpleCursorAdapter.ViewBinder() {
+            @Override
+            public boolean setViewValue(View view, Cursor cursor, int i) {
+                if(i == cursor.getColumnIndex(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE)){
+                    TextView textView = (TextView) view;
+                    SimpleDateFormat time_format = new SimpleDateFormat("yyyy年MM月dd日 - hh时mm分ss秒");
+                    Date date = new Date(cursor.getLong(i));
+                    String time = time_format.format(date);
+                    textView.setText(time);
+                    return true;
+                }
+                return false;
+            }
+        };
+        adapter.setViewBinder(viewBinder);
 
         // Sets the ListView's adapter to be the cursor adapter that was just created.
         setListAdapter(adapter);

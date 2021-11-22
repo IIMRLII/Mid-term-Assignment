@@ -154,11 +154,5 @@ public final class NotePad {
          */
         public static final String COLUMN_NAME_MODIFICATION_DATE = "modified";
 
-        public static final SimpleDateFormat time_format = new SimpleDateFormat("yyyy年MM月dd日 - hh时mm分ss秒");
-
-        public static final String format_time(long columnNameModificationDate) {
-            Date date = new Date(columnNameModificationDate);
-            return String.valueOf(time_format.format(date));
-        }
     }
 }

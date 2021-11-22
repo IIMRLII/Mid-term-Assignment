@@ -662,7 +662,7 @@ public class NoteEditor extends Activity {
 
         // Sets up a map to contain values to be updated in the provider.
         ContentValues values = new ContentValues();
-        values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, NotePad.Notes.format_time(System.currentTimeMillis()));
+        values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, System.currentTimeMillis());
 
         // If the action is to insert a new note, this creates an initial title for it.
         if (mState == STATE_INSERT) {
